@@ -1,6 +1,44 @@
 .env
-__pycache__
-.ipynb_checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 .langgraph_api/
 deep_research_from_scratch.egg-info/
-*.pyc
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Do NOT push the local copy of the package used for development/examples
+# The user requested this folder should NOT be pushed
+src/deep_research_from_scratch/
+
+# Logs
+*.log
+
+# Environment files (sensitive)
+.env
+.env.*
