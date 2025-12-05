@@ -36,6 +36,9 @@ dist/
 # The user requested this folder should NOT be pushed
 src/deep_research_from_scratch/
 
+# Notebooks - development/exploration notebooks
+notebooks/
+
 # Logs
 *.log
 
